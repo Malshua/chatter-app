@@ -1,4 +1,5 @@
 import { connect } from "../assets/images";
+import Button from "./Button";
 
 const Testimonial = function () {
   return (
@@ -16,13 +17,11 @@ const Testimonial = function () {
             vibrant community of individuals who are passionate about sharing
             their ideas and engaging in thoughtful discussions.”
           </p>
-          <p>
-            <span className="block text-lg font-[600]">Babalola Osprey,</span>{" "}
+          <p className="mb-7">
+            <span className=" block text-lg font-[600]">Babalola Osprey,</span>{" "}
             software developer at google.
           </p>
-          <button className="mt-4 rounded bg-blue-900 px-6 py-2 text-white ">
-            Join chatter
-          </button>
+          <Button bgcolor="blue">Join chatter</Button>
         </div>
       </div>
     </div>

@@ -2,9 +2,9 @@ const Footer = function () {
   return (
     <div className=" justify-around bg-red-50 p-3 md:flex">
       <div className="text-center text-[50px] font-bold text-blue-900">
-        Bloggy
+        Chatter
       </div>
-      <div className="mt-4 flex justify-around md:gap-28">
+      <div className="mt-4 flex justify-around md:gap-20">
         <div>
           <h4 className="block text-lg font-[600]">Explore</h4>
           <p>Community</p>

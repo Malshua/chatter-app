@@ -9,9 +9,14 @@ module.exports = {
       backgroundImage: {
         "hero-bg": "url('/src/assets/images/chatter-hero.jpg')",
         "hero-bg2": "url('/src/assets/images/chatter-hero2.jpg')",
+        "sign-up": "url('/src/assets/images/signup.jpg')",
       },
       color: {
         " lightRed": "#FFEDCC",
+      },
+      gridTemplateColumns: {
+        // Complex site-specific column configuration
+        footer: "200px 1fr",
       },
     },
   },

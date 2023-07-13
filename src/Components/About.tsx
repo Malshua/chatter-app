@@ -37,7 +37,7 @@ const About = function () {
             interests and able to communicate your great ideas with people.
           </p>
           <div className="mt-7 flex flex-col gap-y-6 text-left md:flex-row  md:justify-center md:gap-x-10">
-            <div className="w-72 border p-4">
+            <div className="border p-4 md:w-72">
               <img
                 src={carbon}
                 alt="carbon-icon"
@@ -50,7 +50,7 @@ const About = function () {
                 time
               </p>
             </div>
-            <div className=" w-72 border p-4">
+            <div className=" border p-4 md:w-72">
               <img
                 src={fluent}
                 alt="carbon-icon"
@@ -62,7 +62,7 @@ const About = function () {
                 and engage in discussions
               </p>
             </div>
-            <div className="w-72 border p-4">
+            <div className="border p-4 md:w-72">
               <img
                 src={vector}
                 alt="carbon-icon"

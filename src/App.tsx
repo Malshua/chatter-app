@@ -1,18 +1,19 @@
-import "./App.css";
-import Header from "./Components/Header";
-import About from "./Components/About";
-import Testimonial from "./Components/Testimonial";
-import Connect from "./Components/Connect";
-import Footer from "./Components/Footer";
+// import About from "./Components/About";
+// import Connect from "./Components/Connect";
+// import Footer from "./Components/Footer";
+// import Header from "./Components/Header";
+// import Testimonial from "./Components/Testimonial";
+import SignUp from "./Components/SignUp";
 
 function App() {
   return (
     <>
-      <Header />
+      <SignUp />
+      {/* <Header />
       <About />
       <Testimonial />
       <Connect />
-      <Footer />
+      <Footer /> */}
     </>
   );
 }
