@@ -3,12 +3,14 @@
 // import Footer from "./Components/Footer";
 // import Header from "./Components/Header";
 // import Testimonial from "./Components/Testimonial";
-import SignUp from "./Components/SignUp";
+// import SignUp from "./Components/SignUp";
+import MainLayout from "./Components/MainLayout";
 
 function App() {
   return (
     <>
-      <SignUp />
+      <MainLayout />
+      {/* <SignUp /> */}
       {/* <Header />
       <About />
       <Testimonial />
